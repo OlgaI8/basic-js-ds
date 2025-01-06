@@ -14,13 +14,13 @@ class BinarySearchTree {
 
   root() {
     let rootData = this.root;
-    return rootData.data;
+    return rootData;
   }
 
   add(data) {
     let addNode = new Node(data);
 
-    const searchBT = node => {
+    const searchBT = (node) => {
       if (!node) {
         return addNode;
       }

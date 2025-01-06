@@ -24,7 +24,7 @@ class Queue {
     if (!this.head && !this.tail) {
       return null;
     }
-    return this;
+    return this.head;
   }
 
   enqueue(value) {
